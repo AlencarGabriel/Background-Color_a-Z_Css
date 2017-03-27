@@ -1,0 +1,139 @@
+/*!
+ * Letters.css v1.3 (https://github.com/AlencarGabriel/Background-Color_a-Z_Css)
+ * Copyright 2017 Gabriel Alencar.
+ * Licensed under MIT (https://github.com/AlencarGabriel/Background-Color_a-Z_Css/blob/master/LICENSE)
+ */
+
+ /* Arredonda o Fundo da Promeira letra */
+
+ [data-letters]:before {
+     content:attr(data-letters);
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     display:inline-block;
+     font-size:1em;
+     width:2.5em;
+     height:2.5em;
+     line-height:2.5em;
+     text-align:center;
+     border-radius:50%;
+     vertical-align:middle;
+     margin-right:1em;
+     color:white;
+}
+
+/* Manipulações */
+
+.upper {
+     text-transform: uppercase;     
+}
+
+.lower {
+     text-transform: lowercase;     
+}
+
+/* Definição de cores de cada letra */
+
+.a:before, .A:before {
+     background: #4fc3f7;
+} 
+
+.b:before, .B:before {
+     background: #28AD4E;
+} 
+
+.c:before, .C:before {
+     background: #FF7F24;
+} 
+
+.d:before, .D:before {
+     background: #FFC125;
+} 
+
+.e:before, .E:before {
+     background: #FF34B3;
+} 
+
+.f:before, .F:before {
+     background: #43CD80;
+} 
+
+.g:before, .G:before {
+     background: #EE4000;
+} 
+
+.h:before, .H:before {
+     background: #00CD00;
+} 
+
+.i:before, .I:before {
+     background: #4876FF;
+} 
+
+.j:before, .J:before {
+     background: #48D1CC;
+} 
+
+.k:before, .K:before {
+     background: #D2691E;
+} 
+
+.l:before, .L:before {
+     background: #87CEEB;
+} 
+
+.m:before, .M:before {
+     background: #43CD80;
+} 
+
+.n:before, .N:before {
+     background: #8968CD;
+} 
+
+.o:before, .O:before {
+     background: #FF8247;
+} 
+
+.p:before, .P:before {
+     background: #008B8B;
+} 
+
+.q:before, .Q:before {
+     background: #EE2C2C;
+} 
+
+.r:before, .R:before {
+     background: #006400;
+} 
+
+.s:before, .S:before {
+     background: #FFD700;
+} 
+
+.t:before, .T:before {
+     background: #FFA500;
+} 
+
+.u:before, .U:before {
+     background: #DAA520;
+} 
+
+.v:before, .V:before {
+     background: #5F9EA0;
+} 
+
+.w:before, .W:before {
+     background: #8B2252;
+} 
+
+.x:before, .X:before {
+     background: #836FFF;
+} 
+
+.y:before, .Y:before {
+     background: #FF7F00;
+} 
+
+.z:before, .Z:before {
+     background: #FF8247;
+} 
+
